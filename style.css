@@ -1,0 +1,81 @@
+body {
+	background: rgb(140, 21, 173);
+    margin: 100px;
+    border: 50px;
+}
+
+.card {
+    background: #ffff;
+    width: 516px;
+    height: 600px;
+    display: block;
+    
+}
+
+.card-header {
+    display: flex;
+    width: 516px;
+    height: 40px;
+    padding: 8px;
+}
+
+.card-logo svg {
+    width: 20px;
+    height: 30px;
+    padding: 2px;
+}
+
+.card-title h1 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.card-title h2 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin: 0px;
+}
+
+.card-title {
+    padding: 2px;
+}
+
+.card-img img {
+    width: 516px;
+    height: 300px;
+}
+
+.card-menu svg {
+    width: 20px;
+    height: 30px;
+    padding-left: 400px;
+}
+
+.card-options {
+    width: 516px;
+    height: 40px;
+    display: flex;
+    margin: 4px;
+}
+
+#like,
+#comment,
+#share,
+#save {
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    padding: 4px;
+}
+
+#save {
+    padding-left: 360px;
+}
+
+.card-content {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+}
